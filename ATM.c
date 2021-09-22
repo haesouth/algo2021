@@ -14,7 +14,7 @@ int main() {
 
     for (int i = 0; i < num; i++) {
         for (int j = 0; j < num - 1; j++) {
-            if (arr[j] > arr[j + 1]) { //Á¤·Ä
+            if (arr[j] > arr[j + 1]) {
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
