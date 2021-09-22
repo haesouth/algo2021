@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; i < num; i++)
         scanf("%d", &arr[i]);
 
-    for (int i = 0; i < num; i++) {
+    for (int i = 0; i < num; i++) { //정렬
         for (int j = 0; j < num - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 temp = arr[j];

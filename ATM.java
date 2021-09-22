@@ -11,10 +11,10 @@ public class Main {
 		for (int i = 0; i < n; i++)
 		    p[i] = sc.nextInt();
 		   
-		Arrays.sort(p);
+		Arrays.sort(p); //짧은 순서대로 정렬
 		
 		int min = p[0];
-		
+	
 		for (int i = 1; i < n; i++) {
 			p[i] += p[i-1];
 			min += p[i];
